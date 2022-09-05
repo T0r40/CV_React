@@ -1,0 +1,102 @@
+{
+    "Header":{
+        "perfil": "Perfil profesional",
+        "historial": "Historial laboral",
+        "educacion": "Educación",
+        "aptitudes": "Aptitudes profesionales" ,
+        "formacion": "Formación complementaria",
+        "trabajos": "Descarga mi CV",
+        "yo":"Sobre mí"
+    },
+
+    "Body": {
+        "perfil":{
+            "li1": "Gracias a los conocimientos adquiridos y a mis actitudes me encuentro desarrollando actualmente el puesto de ABAP S/4HANA Software Developper en la consultoría tecnológica internacional Sopra Steria. Entre mis funciones y aportaciones se encuentran resolución de incidencias a nivel de programación y desarrollo/mantenimiento de evolutivos.",
+            "li2": "En cuestión de innovación y tecnología me considero una persona autodidacta, que se mantiene al día gracias a la continua realización de acciones formativas tanto a nivel interno como externo.",
+            "li3": "Busco fortalecer mis conocimientos en software y soluciones ERP(SAP, Salesforce, Odoo) y aprender lo máximo posible de este mundillo, ya que es algo a lo que me dedico actualmente y para el cual parto con conocimientos avanzados de algunos lenguajes de programación que estos manejan acreditando estos conocimientos mediante certificaciones de realización y superación de cursos dispuestos en el apartado certificaciones."
+        },
+        "aptitudes":{
+            "lenguajes":"Lenguajes",
+            "frameworks":"Frameworks",
+            "contenedores":"Contenedores",
+            "erp":"ERP",
+            "bd": "Bases de datos",
+            "idiomas": "Idiomas"
+        },
+        "educacion":{
+            "DAM":{
+                "entidad": "IES Ramón del Valle Inclán",
+                "fecha":"Fecha de graduación: 2021",
+                "proyecto":"Nota del proyecto: 7",
+                "nombre": "Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Multiplataforma(DAM)"
+            },
+            
+            "Bachillerato":{
+                "entidad": "IES V Centenario",
+                "fecha":"Fecha de graduación: 2018",
+                "proyecto":"Nota media: 6,24",
+                "nombre": "Bachillerato de ciencias"
+            }
+        },
+        "Formacion":{
+                "openwebinars":"Consulta todas mis certificaciones en esta plataforma haciendo click",
+                "openwebinars1":"AQUÍ"
+        },
+        "Laboral":{
+            "Sopra":{
+                "empresa":"Sopra Steria España",
+                "tiempo":"Junio 2022 - Actualidad",
+                "descripcion":{
+                    "des1":"Aprendizaje y formación en la programación ABAP OO.",
+                    "des2":"IDOCS(Entrada y salida)",
+                    "des3":"Manipulación de BADIS, BAPIS y USER EXIT",
+                    "des4":"Conexiónes de SAP con Salesforce(HTTPS)",
+                    "des5":"Smartforms, adoveforms y sapscript",
+                    "des6": "Report y Modulpool",
+                    "des7": "ALV OO y gestión de eventos con clases"
+                },
+                "puesto":"ABAP/S4HANA Software Developper"
+            },
+            "Atos":{
+                "empresa":"Atos WorldGrid S.L",
+                "tiempo":"Marzo 2022 - Junio 2022",
+                "descripcion":{
+                    "des1":"Trabajo diario en la elaboración de evolutivos para el módulo IS-U y FI, a destacar que he tratado con IDOCS(entrada y salida) entre las funciones desempeñadas en el desarrollo"
+                },
+                "puesto":"ABAP/S4HANA Software Developper"
+            },
+            "Deloitte":{
+                "Becario":{
+                    "puesto":"Becario",
+                    "empresa":"Deloitte",
+                    "tiempo":"Marzo 2021 -  Junio 2021",
+                    "descripcion":{
+                        "des1":"Curso de formación ABAP en el manejo de programación, en este curso desarrollé reports, ALV, Modulpool, batch input y manejo de estructuras, tipos de datos y creación de tablas en SAP"
+                    }
+                },
+                "Junior":{
+                        "puesto":"Junior Delivery Analist",
+                        "empresa":"Deloitte",
+                        "tiempo":"Julio 2021 -  Febrero 2022",
+                        "descripcion":{
+                            "des1":"Desarrollo y mantenimiento de evolutivos tanto en ABAP como en HANA y trabajo diario con los módulos SAP FI y SAP SD."
+                        }
+                }
+            }
+
+        },
+        "idiomas":{
+            "ingles":"Inglés(B1)",
+            "espanol":"Español(lengua materna)"
+        }
+    },
+    
+    "Footer":{
+        "titulo":"Datos de contacto Norberto Oliva Alonso",
+        "direccion":"Sevilla, España",
+        "telefono": "+34 605936739",
+        "email": "norbertoolivaalonso1@gmail.com",
+        "redes":"Redes sociales"
+    }
+
+ }

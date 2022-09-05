@@ -1,0 +1,100 @@
+{
+   "Header":{
+       "perfil": "Professional profile",
+       "historial": "Employment history",
+       "educacion": "Education",
+       "aptitudes": "Professional skills" ,
+       "formacion": "Training",
+       "trabajos": "Download my CV",
+       "yo":"About me"
+   },
+   "Body": {
+    "perfil":{
+        "li1": "Thanks to the knowledge acquired and my attitudes, I am currently developing the position of ABAP S/4HANA Software Developer in the international technology consultancy Sopra Steria. Among my functions and contributions are resolution of incidents at the programming level and development / maintenance of evolutionary.",
+        "li2": "In terms of innovation and technology, I consider myself a self-taught person, who keeps up to date thanks to continuous training activities both internally and externally.",
+        "li3": "I seek to strengthen my knowledge in software and ERP solutions (SAP, Salesforce, Odoo) and learn as much as possible from this world, since it is something that I currently dedicate myself to and for which I start with advanced knowledge of some programming languages ​​that these they manage accrediting this knowledge through certifications of completion and overcoming of courses arranged in the certifications section."
+    },
+        "aptitudes":{
+            "lenguajes":"Languages",
+            "frameworks":"Frameworks",
+            "contenedores":"Containers",
+            "erp":"ERP",
+            "bd": "Databases",
+            "idiomas": "Languages"
+        },
+        "educacion":{
+            "DAM":{
+                "entidad": "'Ramón del Valle Inclán' Hight School",
+                "fecha":"Graduation: 2021",
+                "proyecto":"Proyect Mark: 7",
+                "nombre": "Higher vocational training of Aplication Development(MAD)"
+            },
+            
+            "Bachillerato":{
+                "entidad": "'V Centenario' Hight School",
+                "fecha":"Graduation: 2018",
+                "proyecto":"Avarage mark: 6,24",
+                "nombre": "Sciences Bachelor's Degree"
+            }
+        },
+
+        "Formacion":{
+                "openwebinars":"Check my certificates of this platform clicking",
+                "openwebinars1":"HERE"
+        },
+        "Laboral":{
+            "Sopra":{
+                "empresa":"Sopra Steria Spain",
+                "tiempo":"June 2022 - Present",
+                "descripcion":{
+                    "des1":"Learning and training in ABAP OO programming.",
+                    "des2":"IDOCS(Inbound and Outbound)",
+                    "des3":"Manipulating BADIS, BAPIS and USER EXIT",
+                    "des4":"SAP connections with Salesforce(HTTPS)",
+                    "des5":"Smartforms, adoveforms y sapscript",
+                    "des6": "Report and Modulpool",
+                    "des7": "ALV OO and event management with classes"
+                },
+                "puesto":"ABAP/S4HANA Software Developper"
+            },
+            "Atos":{
+                "empresa":"Atos WorldGrid L.S",
+                "tiempo":"March 2022 - June 2022",
+                "descripcion":{
+                    "des1":"Daily work in the elaboration of evolutionaries for the IS-U and FI module, to highlight that I have dealt with IDOCs (input and output) among the functions performed in the development"
+                },
+                "puesto":"ABAP/S4HANA Software Developper"
+            },
+            "Deloitte":{
+                "Becario":{
+                    "puesto":"Intern",
+                    "empresa":"Deloitte",
+                    "tiempo":"March 2021 -  June 2021",
+                    "descripcion":{
+                        "des1":"ABAP training course in programming management, in this course I developed reports, ALV, Modulpool, batch input and management of structures, data types and creation of tables in SAP"
+                    }
+                },
+                "Junior":{
+                        "puesto":"Junior Delivery Analist",
+                        "empresa":"Deloitte",
+                        "tiempo":"July 2021 -  February 2022",
+                        "descripcion":{
+                            "des1":"Development and maintenance of evolutives in both ABAP and HANA and daily work with SAP FI and SAP SD modules."
+                        }
+                }
+            }
+
+        },
+        "idiomas":{
+            "ingles":"English (B1)",
+            "espanol":"Spanish (Mother language)"
+        }
+},
+"Footer":{
+    "titulo":"Contact Norberto Oliva Alonso",
+    "direccion":"Seville, Spain",
+    "telefono": "+34 605936739",
+    "email": "norbertoolivaalonso1@gmail.com",
+    "redes":"Social Media"
+}
+}
