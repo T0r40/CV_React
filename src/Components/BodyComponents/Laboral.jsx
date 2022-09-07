@@ -20,7 +20,7 @@ const Laboral = () =>{
                     </Card.Header>
                     <Card.Body>
                     <Card.Text>
-                        <Card>
+                        <Card className="div-sub">
                         <h4 align="center">{t('Body.Laboral.Sopra.puesto')}</h4>
                         <h5 align="center">{t('Body.Laboral.Sopra.tiempo')}</h5>
                         <hr></hr>
@@ -52,7 +52,7 @@ const Laboral = () =>{
                     </Card.Header>
                     <Card.Body>
                     <Card.Text>
-                        <Card>
+                        <Card className="div-sub">
                             <h4 align="center">{t('Body.Laboral.Atos.puesto')}</h4>
                             <h5 align="center">{t('Body.Laboral.Atos.tiempo')}</h5>
                             <hr></hr>
@@ -78,7 +78,7 @@ const Laboral = () =>{
                     </Card.Header>
                     <Card.Body>
                     <Card.Text>
-                        <Card>
+                        <Card className="div-sub">
                             <h4 align="center">{t('Body.Laboral.Deloitte.Becario.puesto')}</h4>
                             <h5 align="center">{t('Body.Laboral.Deloitte.Becario.tiempo')}</h5>
                             <hr></hr>
@@ -89,7 +89,7 @@ const Laboral = () =>{
                             </div>
                         </Card>
                         <br></br>
-                        <Card>
+                        <Card className="div-sub">
                             <h4 align="center">{t('Body.Laboral.Deloitte.Junior.puesto')}</h4>
                             <h5 align="center">{t('Body.Laboral.Deloitte.Junior.tiempo')}</h5>
                             <hr></hr>

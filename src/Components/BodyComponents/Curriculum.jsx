@@ -9,7 +9,7 @@ import {Row}  from "react-bootstrap";
 const Curriculum = () =>{
         return (
         <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Body>
                 <Card.Text>
                     <Row>
@@ -17,7 +17,7 @@ const Curriculum = () =>{
                             <div align="center">
                                 <Button href="https://drive.google.com/file/d/1qiBxP4RarDL-HQo_wn2LvLkmXzWM7XIf/view?usp=sharing"
                                             target="_black"
-                                            variant="outline-primary">
+                                            variant="outline-dark">
                                     <img src={Espana} 
                                         className="img-thumbnail" width={100} alt="Responsive image"/>
                                 </Button>
@@ -26,7 +26,7 @@ const Curriculum = () =>{
                         <Col>
                             <div align="center">
                                 <Button href="https://drive.google.com/file/d/1XRLHuAcMVLvglNwD75rhS904ISHPgkH-/view?usp=sharing"
-                                        variant="outline-primary"
+                                        variant="outline-dark"
                                         target="_black">
                                     <img src={UK} 
                                         className="img-thumbnail" width={100} alt="Responsive image"/>

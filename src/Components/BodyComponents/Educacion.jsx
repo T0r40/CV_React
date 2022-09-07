@@ -11,7 +11,7 @@ const Educacion = () =>{
     return (
          <Row xs={1} md={1} className="g-4">
             <Col>
-                <Card>
+                <Card className="div-ap">
                     <Card.Header>
                         <Card.Title align="center">{t('Body.educacion.DAM.nombre')}</Card.Title>
                     </Card.Header>
@@ -25,7 +25,7 @@ const Educacion = () =>{
                 </Card>
             </Col>
             <Col>
-                <Card>
+                <Card className="div-ap">
                     <Card.Header>
                         <Card.Title align="center">{t('Body.educacion.Bachillerato.nombre')}</Card.Title>
                     </Card.Header>

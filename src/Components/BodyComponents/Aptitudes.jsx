@@ -23,7 +23,7 @@ const Aptitudes = () =>{
         return (
         <>
         <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -42,7 +42,7 @@ const Aptitudes = () =>{
                     <Row xs={1} md={2} className="g-4">
                         {lenguajes.map(({nombre}, i) =>(
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li id={`element${i}`}>
@@ -61,7 +61,7 @@ const Aptitudes = () =>{
             </CardGroup>
             <br></br>
             <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -80,7 +80,7 @@ const Aptitudes = () =>{
                     <Row xs={1} md={2} className="g-4">
                         {softwareErp.map(({nombre}, i) =>(
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li id={`element${i}`}>
@@ -98,7 +98,7 @@ const Aptitudes = () =>{
             </CardGroup>
             <br></br>
             <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -117,7 +117,7 @@ const Aptitudes = () =>{
                     <Row xs={1} md={2} className="g-4">
                         {frameworks.map(({nombre}, i) =>(
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li id={`element${i}`}>
@@ -135,7 +135,7 @@ const Aptitudes = () =>{
             </CardGroup>
             <br></br>
             <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -154,7 +154,7 @@ const Aptitudes = () =>{
                     <Row xs={1} md={2} className="g-4">
                         {contenedores.map(({nombre}, i) =>(
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li id={`element${i}`}>
@@ -172,7 +172,7 @@ const Aptitudes = () =>{
             </CardGroup>
             <br></br>
             <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -191,7 +191,7 @@ const Aptitudes = () =>{
                     <Row xs={1} md={2} className="g-4">
                         {baseDatos.map(({nombre}, i) =>(
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li id={`element${i}`}>
@@ -209,7 +209,7 @@ const Aptitudes = () =>{
             </CardGroup>
             <br></br>
             <CardGroup>
-            <Card>
+            <Card className="div-ap">
                 <Card.Header>
                         <div class="footer-center">
                             <div align="center">
@@ -227,7 +227,7 @@ const Aptitudes = () =>{
                     <Card.Text>
                     <Row xs={1} md={2} className="g-4">
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li>
@@ -240,7 +240,7 @@ const Aptitudes = () =>{
                             </Card>
                         </Col>
                         <Col>
-                            <Card>
+                            <Card className="div-sub">
                                 <Card.Text>
                                     <ul style={{listStyleType: "none"}}>
                                         <li>
