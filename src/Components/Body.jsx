@@ -63,7 +63,7 @@ const {t, i18n} = useTranslation('common');
                         </div>
                     </div>
                     </Card.Header>
-                    <Card.Body className="div-sub">
+                    <Card.Body className="div-header">
                         <Row>
                             <Col >
                             <Card.Text className="div-sub">
