@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
 const {t, i18n} = useTranslation('common');
   return (
-        <div id="Yo" class="footer-distributed">
+        <div id="Yo" class ="footer-distributed">
                     <div class="footer-left">
                         <h3>{t('Footer.titulo')}</h3>
                     </div>

@@ -21,15 +21,17 @@ import { useTranslation } from "react-i18next";
 const Body = () => {
 const {t, i18n} = useTranslation('common');
     return(
-    <div>
+    <div className="div-body">
         <CardGroup>
+            <br></br>
+            <br></br>
             <Row>
                 <Col>
-                <Card id="Proyectos" border="dark" className="card text-write bg-secondary">
+                <Card id="Curriculum" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.trabajos')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -46,11 +48,12 @@ const {t, i18n} = useTranslation('common');
                     </Card.Body>
                 </Card>
                 <br></br>
-                <Card id="Perfil" border="dark" className="card text-write bg-primary">
+                <br></br>
+                <Card id="Perfil" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.perfil')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -82,12 +85,13 @@ const {t, i18n} = useTranslation('common');
                         </Row>
                     </Card.Body>
                 </Card>
-               <br></br>
-                <Card id="Historial" border="dark" className="card text-write bg-info">
+                <br></br>
+                <br></br>
+                <Card id="Historial" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.historial')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -104,11 +108,12 @@ const {t, i18n} = useTranslation('common');
                     </Card.Body>
                 </Card>
                 <br></br>
-                <Card id="Educacion" border="dark" className="card text-write bg-danger">
+                <br></br>
+                <Card id="Educacion" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.educacion')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -125,11 +130,12 @@ const {t, i18n} = useTranslation('common');
                     </Card.Body>
                 </Card>
                 <br></br>
-                <Card id="Aptitudes" border="dark" className="card text-write bg-warning">
+                <br></br>
+                <Card id="Aptitudes" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.aptitudes')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -146,11 +152,12 @@ const {t, i18n} = useTranslation('common');
                     </Card.Body>
                 </Card>
                 <br></br>
-                <Card id="Formacion" border="dark" className="card text-write bg-light">
+                <br></br>
+                <Card id="Formacion" border="dark" className="div-header_footer">
                     <Card.Header>
                     <div class="footer-center">
                         <div align="center">
-                            <p className="text-dark">
+                            <p className="text-light">
                                 <h1>{t('Header.formacion')}</h1>
                             </p>
                             <i class="fa fa-map-marker">
@@ -166,6 +173,7 @@ const {t, i18n} = useTranslation('common');
                     </Card.Text>
                     </Card.Body>
                     </Card>
+                    <br></br>
                     <br></br>
                 </Col>
             </Row>

@@ -8,8 +8,7 @@ import { useTranslation } from "react-i18next";
 const Header = () => {
   const {t, i18n} = useTranslation('common');
     return (
-      <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="xl" bg="dark" variant="dark" fixed="top" className="div-header">
           <Languages/>
         <Container>
           <Navbar.Brand>
@@ -19,23 +18,17 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#Proyectos">{t('Header.trabajos')}</Nav.Link>
-              <Nav.Link href="#Perfil">{t('Header.perfil')}</Nav.Link>
-              <Nav.Link href="#Historial">{t('Header.historial')}</Nav.Link>
-              <Nav.Link href="#Educacion">{t('Header.educacion')}</Nav.Link>
-              <Nav.Link href="#Aptitudes">{t('Header.aptitudes')}</Nav.Link>
-              <Nav.Link href="#Formacion">{t('Header.formacion')}</Nav.Link>
-              <Nav.Link href="#Yo">{t('Header.yo')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Curriculum">{t('Header.trabajos')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Perfil">{t('Header.perfil')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Historial">{t('Header.historial')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Educacion">{t('Header.educacion')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Aptitudes">{t('Header.aptitudes')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Formacion">{t('Header.formacion')}</Nav.Link>
+              <Nav.Link className="text-light" href="#Yo">{t('Header.yo')}</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      </>
       );
 }
 

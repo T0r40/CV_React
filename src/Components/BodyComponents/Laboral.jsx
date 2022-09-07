@@ -10,7 +10,7 @@ const Laboral = () =>{
         return (
             <Row xs={1} md={1} className="g-4">
             <Col>
-                <Card>
+                <Card className="div-ap">
                     <Card.Header>
                         <Card.Title align="center">{t('Body.Laboral.Sopra.empresa')}</Card.Title>
                         <div align="center">
@@ -42,7 +42,7 @@ const Laboral = () =>{
             </Col>
 
             <Col>
-                <Card>
+                <Card className="div-ap">
                     <Card.Header>
                         <Card.Title align="center">{t('Body.Laboral.Atos.empresa')}</Card.Title>
                         <div align="center">
@@ -68,7 +68,7 @@ const Laboral = () =>{
             </Col>
 
             <Col>
-                <Card>
+                <Card className="div-ap">
                     <Card.Header>
                         <Card.Title align="center">{t('Body.Laboral.Deloitte.Becario.empresa')}</Card.Title>
                         <div align="center">

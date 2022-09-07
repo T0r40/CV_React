@@ -10,6 +10,10 @@ function App() {
           <Header/>
         </header>
         <section>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <Body/>
         </section>
         <footer>
