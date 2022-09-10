@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 import { useTranslation } from "react-i18next";
-import {educacion} from "../../Modules/Educacion";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 

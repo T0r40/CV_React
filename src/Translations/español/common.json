@@ -13,7 +13,7 @@
         "perfil":{
             "li1": "Gracias a los conocimientos adquiridos y a mis actitudes me encuentro desarrollando actualmente el puesto de ABAP S/4HANA Software Developper en la consultoría tecnológica internacional Sopra Steria. Entre mis funciones y aportaciones se encuentran resolución de incidencias a nivel de programación y desarrollo/mantenimiento de evolutivos.",
             "li2": "En cuestión de innovación y tecnología me considero una persona autodidacta, que se mantiene al día gracias a la continua realización de acciones formativas tanto a nivel interno como externo.",
-            "li3": "Busco fortalecer mis conocimientos en software y soluciones ERP(SAP, Salesforce, Odoo) y aprender lo máximo posible de este mundillo, ya que es algo a lo que me dedico actualmente y para el cual parto con conocimientos avanzados de algunos lenguajes de programación que estos manejan acreditando estos conocimientos mediante certificaciones de realización y superación de cursos dispuestos en el apartado certificaciones."
+            "li3": "Busco fortalecer mis conocimientos en software y soluciones ERP(SAP, Salesforce, Odoo) y aprender lo máximo posible de este sector, ya que es algo a lo que me dedico actualmente y para el cual parto con conocimientos avanzados de algunos lenguajes de programación que estos manejan acreditando estos conocimientos mediante certificaciones de realización y superación de cursos dispuestos en el apartado certificaciones."
         },
         "aptitudes":{
             "lenguajes":"Lenguajes",
@@ -27,14 +27,14 @@
             "DAM":{
                 "entidad": "IES Ramón del Valle Inclán",
                 "fecha":"Fecha de graduación: 2021",
-                "proyecto":"Nota del proyecto: 7",
+                "proyecto":"Nota del proyecto: CALIFICACIÓN NOTABLE",
                 "nombre": "Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Multiplataforma(DAM)"
             },
             
             "Bachillerato":{
                 "entidad": "IES V Centenario",
                 "fecha":"Fecha de graduación: 2018",
-                "proyecto":"Nota media: 6,24",
+                "proyecto":"",
                 "nombre": "Bachillerato de ciencias"
             }
         },
