@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
 import Espana from "../../img/espana.png";
+import FR from "../../img/francia.png";
 import UK from "../../img/reino-unido.png";
 import { Col } from "react-bootstrap";
 import {Row}  from "react-bootstrap";
@@ -29,6 +30,16 @@ const Curriculum = () =>{
                                         variant="outline-dark"
                                         target="_black">
                                     <img src={UK} 
+                                        className="img-thumbnail" width={100} alt="Responsive image"/>
+                                </Button>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div align="center">
+                                <Button href="https://drive.google.com/file/d/1soLSSHl8yNvUQileucRUhx59PMBUxRF9/view?usp=sharing"
+                                        variant="outline-dark"
+                                        target="_black">
+                                    <img src={FR} 
                                         className="img-thumbnail" width={100} alt="Responsive image"/>
                                 </Button>
                             </div>

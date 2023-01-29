@@ -14,6 +14,7 @@ import docker from "../../img/docker.png";
 import langu from "../../img/languages.png";
 import bd from "../../img/dato.png";
 import Espana from "../../img/espana.png";
+import FR from "../../img/francia.png";
 import UK from "../../img/reino-unido.png";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -247,6 +248,19 @@ const Aptitudes = () =>{
                                         <img src={Espana} 
                                              className="img-thumbnail" alt="Responsive image" width={50}/>
                                              {t('Body.idiomas.espanol')}
+                                        </li>
+                                    </ul>
+                                </Card.Text>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="div-sub">
+                                <Card.Text>
+                                    <ul style={{listStyleType: "none"}}>
+                                        <li>
+                                        <img src={FR} 
+                                             className="img-thumbnail" alt="Responsive image" width={50}/>
+                                             {t('Body.idiomas.frances')}
                                         </li>
                                     </ul>
                                 </Card.Text>
